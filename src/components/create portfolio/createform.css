@@ -1,0 +1,81 @@
+.form1{
+    display:grid;
+    background-color:rgba(255,255,255,255);
+    border-radius: 10px ;
+    padding: 5px;
+    padding-left:10px ;
+    margin-right:20px ;
+  }
+  .company_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    width:169px;
+    font-size: smaller;
+    padding: 5px;
+  }
+  .user_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    width:100px ;font-size: smaller;
+    padding: 5px;
+  }
+  .email_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    width:125px ;
+    font-size: smaller;
+    padding: 5px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+  }
+  .column{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10px;
+  
+  }
+  .first_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    font-size: smaller;
+    width: 209px;
+    padding: 5px;
+  }
+  .address_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    font-size: smaller;
+    width: 442px;
+    padding: 5px;
+  }
+  .city_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    font-size: smaller;
+    width: 133px;
+    padding: 5px;
+  }
+  .about_input{
+    border-radius: 4px;
+    border-color:lightgrey;
+    font-size:larger;
+    width: 450px;
+    height:17px;
+    padding: 5px;
+  }
+  
+  .update{
+    background-color:rgba(33,197,234,255);
+    padding: 8px;
+    margin: 5px;
+    width: 100px;
+    color: beige;
+    font-size: small;
+    border: 1px solid rgb(145, 144, 144);
+  border-radius: 4px;
+  margin-top: 12px;
+  margin-left: 363px;
+  }
