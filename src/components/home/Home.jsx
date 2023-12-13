@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "./home.css";
 import Me from "../../assets/profile-pic.png"
 import HeaderSocials from './HeaderSocials';
@@ -29,11 +29,15 @@ const FormDisplay = ({ formData }) => {
 
 
 
-        <h1 className="home___name" name="username">Vinith kumar </h1>
+        <h1 className="home___name" name="username">Vinith kumar Gnanaoli </h1>
 
 
-        <span className="home___education">I'm front-end Developer
+        <span className="home___education">I'm Front-End Developer.
+        </span><br></br>
+        <span className="home___education">vinithkumarmkg3@gmail.com
         </span>
+
+        
 
         <HeaderSocials />
         <a href="#contact" className="btn">

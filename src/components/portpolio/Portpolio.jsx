@@ -7,7 +7,6 @@ const Portpolio = () => {
   const filterItem = (categoryItem) => {
     const updatedItems = Menu.filter((curElem) => {
       return curElem.category === categoryItem;
-
     });
     setItems(updatedItems);
   }
@@ -17,18 +16,17 @@ const Portpolio = () => {
 
       <div className="work___filters">
         <span className="work___items" onClick={() => setItems(Menu)}>Everything</span>
+       
         <span className="work___items" onClick={() => filterItem
-          ("Creative")}>Creative</span>
+          ("React & Node js")}>React & Node js</span>
         <span className="work___items" onClick={() => filterItem
-          ("Art")}>Art</span>
+          ("React")}>React</span>
         <span className="work___items" onClick={() => filterItem
-          ("Design")}>Design</span>
-        <span className="work___items" onClick={() => filterItem
-          ("Branding")}>Branding</span>
+          ("Html")}>Html</span>
       </div>
       <div className="work___container grid">
         {items.map((elem) => {
-          const { id, image, title, category } = elem;
+          const { id, image, title, category,href } = elem;
           return (
             <div className="work___card" key={id}>
               <div className="work___thumbnail">
@@ -38,7 +36,7 @@ const Portpolio = () => {
               </div>
               <span className="work___category">{category} </span>
               <h3 className="work___title">{title}</h3>
-              <a href="a" className="work___button">
+              <a href={href} className="work___button"  target="_blank" rel="noreferrer">
                 <i className="icon-link work___button-icon"></i>
               </a>
             </div>

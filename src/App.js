@@ -7,11 +7,11 @@ import Portpolio from './components/portpolio/Portpolio';
 import Resume from './components/resume/Resume';
 import Services from './components/services/Services';
 import Pricing from './components/pricing/Pricing';
-import Testimonials from './components/testimonials/Testimonials';
-import Blog from './components/blog/Blog';
+// import Testimonials from './components/testimonials/Testimonials';
+// import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
-import CreateForm from './components/create portfolio/CreateForm';
-import Payment from './components/payment/Payment';
+// import CreateForm from './components/create portfolio/CreateForm';
+// import Payment from './components/payment/Payment';
 function App() {
   return (
    <>
@@ -25,8 +25,8 @@ function App() {
     <Portpolio/>
     <Pricing/>
     
-    <Testimonials/>
-    <Blog/>
+    {/* <Testimonials/> */}
+    {/* <Blog/> */}
     <Contact/>
    </main>
    </>

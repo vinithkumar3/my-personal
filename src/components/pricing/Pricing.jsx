@@ -1,51 +1,59 @@
 import React from 'react';
 import "./pricing.css";
-import Image1 from"../../assets/price-1.svg";
-import Image2 from"../../assets/price-2.svg";
-import Image3 from"../../assets/price-3.svg";
-import Payment from '../payment/Payment';
+import Image1 from"../../assets/htmlcssjs.png";
+import Image2 from"../../assets/react.png";
+import Image3 from"../../assets/java.png";
+// import Payment from '../payment/Payment';
+// import javacer from '../../assets/vinith -java certificate.pdf'
 
 
 const Pricing = () => {
+ 
+    // const handleViewCertificate = () => {
+    //   const link = document.createElement('a');
+    //   link.href = javacer;
+    //   link.download = 'Vinithkumar.G_java.pdf';
+    //   link.click();
+    // };
   return (
   <section className="pricing container section">
-    <h2 className="section___title">Pricing Plans</h2>
+    <h2 className="section___title">Training and Certification</h2>
      <div className="pricing___container grid">
 
       <div className="pricing___item">
         <img src={Image1} alt="" className="pricing___img" />
-      <h3 className="pricing___plan">Basic</h3>
-      <p className="pricing___title">A Simple option but powerful to manage your business</p>
-      <p className="pricing___pricingsupport">Email support</p>
-      <h3 className="price">
+      <h3 className="pricing___plan">Front-End-Developer</h3>
+      <p className="pricing___title">HTML ,CSS, JAVASCRIPT</p>
+      <p className="pricing___pricingsupport">Besant Technologies, Tambaram</p>
+      {/* <h3 className="price">
         <em>₹ </em> 500<span> Month</span>
-      </h3>
-      <a href="" className="btn">Get Started</a>
+      </h3> */}
+      {/* <a href="" className="btn" onClick={handleViewCertificate}>View Certificate</a> */}
       </div>
 
       <div className="pricing___item best">
-      <span className="badge">Recommended</span>
+      {/* <span className="badge">Recommended</span> */}
       
-        <img src={Image2} alt="" className="pricing___img" />
-      <h3 className="pricing___plan">Premium</h3>
-      <p className="pricing___title">Unlimited product including app integration and more features</p>
-      <p className="pricing___pricingsupport">Mon-Fri support</p>
-      <h3 className="price">
+        <img src={Image2} alt="" className="pricing___rimg" />
+      <h3 className="pricing___plan">REACT JS</h3>
+      <p className="pricing___title">Front-end JavaScript library</p>
+      <p className="pricing___pricingsupport">Besant Technologies, Tambaram</p>
+      {/* <h3 className="price">
         <em>₹ </em> 1000<span> Month</span>
-      </h3>
-      <a href="" className="btn">Get Started</a>
+      </h3> */}
+      {/* <a href="" className="btn" target='_blank'> View Certificate</a> */}
       </div>
 
       <div className="pricing___item">
-        <img src={Image3} alt="" className="pricing___img" />
-      <h3 className="pricing___plan">Ultimate</h3>
+        <img src={Image3} alt="" className="pricing___jimg" />
+      <h3 className="pricing___plan">Java</h3>
       <p className="pricing___title">
-A wise option for large companies and individuals</p>
-      <p className="pricing___pricingsupport">24/7 support</p>
-      <h3 className="price">
+Core java & Advance java</p>
+      <p className="pricing___pricingsupport">Besant Technologies, Tambaram</p>
+      {/* <h3 className="price">
         <em>₹ </em> 1400<span> Month</span>
-      </h3>
-      <a href="" className="btn">Get Started</a>
+      </h3> */}
+      {/* <a href="" className="btn"> View Certificate</a> */}
       </div>
     
      </div>

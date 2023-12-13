@@ -7,6 +7,7 @@ const Card = (props) => {
       <span className="timeline___date">{props.year}</span>
       <h3 className="timeline___title">{props.title}</h3>
       <p className="timeline___text">{props.desc}</p>
+      <p className="timeline___text">{props.work}</p>
     </div>
   )
 }

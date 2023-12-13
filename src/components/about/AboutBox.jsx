@@ -23,7 +23,7 @@ const AboutBox = () => {
                     <h3 className="about___title">427</h3>
                     <span className="about___title">Satisfied clients</span>
                 </div>
-            </div>
+            </div> 
             <div className="about___box">
                 <i className="about___icon icon-badge"></i>
                 <div>

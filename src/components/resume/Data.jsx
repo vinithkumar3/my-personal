@@ -4,7 +4,7 @@ const Data = [
     id: 1,
     category: "education",
     icon: "icon-graduation",
-    year: "2019 - 2021 ",
+    year: "2017 - 2021 ",
     title: "Bachelor of Engineering in Computer Science.",
     desc: " Jeppiaar Maamallan Engineering College, Sriperumbudur.                                       CGPA: 7.65 ",
   },
@@ -12,9 +12,9 @@ const Data = [
     id: 2,
     category: "education",
     icon: "icon-graduation",
-    year: "2015 - 2017",
+    year: " 2017",
     title: "12th (HSC) - State Board",
-    desc: "M.L.M Matriculation Higher Secondary School, Kanchipuram.       Percentage: 80.5%",
+    desc: "  M.L.M Mamallan Matriculation    Higher Secondary School, Kanchipuram.                                   Percentage: 80.5%",
   },
   {
     id: 3,
@@ -26,28 +26,30 @@ const Data = [
   },
   {
     id: 4,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2019 - present",
-    title: "Web Designer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    category: "training",
+    icon: "icon-graduation",
+    year: " 2023 (Jan- April)",
+    title: "Front-End-Developer with React JS",
+    desc: "Besant Technologies, Tambaram ",
+    
   },
   {
     id: 5,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2013 - 2017",
-    title: "Front-End Developer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    category: "training",
+    icon: "icon-graduation",
+    year: " 2023 (May- July)",
+    title: "Advance Java",
+    desc: "Besant Technologies, Tambaram ",
+   
   },
   {
     id: 6,
     category: "experience",
     icon: "icon-briefcase",
-    year: "2009 - 2013",
-    title: "Back-End Developer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
-  },
+    year: "2023 (July - Present)",
+    title: "Trainee  Software  Developer",
+    desc: "Vectone Solution, Chennai",
+    work:"Working on React.js and Node.js projects, actively contributing to development."}
 ];
 
 

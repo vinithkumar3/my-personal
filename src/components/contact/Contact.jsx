@@ -19,8 +19,13 @@ import "./contact.css";
       form.current.reset();
   };
  
-  
+  const emailAddress = 'vinithkumarmkg3@gmail.com';
+              
+  const handleClick = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
   return (
+
     <section className="contact container section" id='contact'>
       <h2 className="section_title">Get In Touch</h2>
 
@@ -28,21 +33,26 @@ import "./contact.css";
         <div className="contact___info">
           <h3 className="contact___title">Let's talk about everything!</h3>
           <p className="contact___details">Don't like forms? Send me an email. 👋</p>
+          <div>
+          <a  className="home___social-link" target="_blank"  onClick={handleClick}/>
+       <i class="fa fa-envelope" aria-hidden="true" style={{color:"black"}}> </i>    <span className='email'>vinithkumarmkg3@gmail.com</span><br></br>
+      <a className="icon-phone"  style={{color:"black"}}></a> <span className='number'> 9500333548</span></div>
           </div>
+          
 
           <form  className="contact_form" ref={form} onSubmit={sendEmail}>
             <div className="contact___form-group">
               <div className="contact___form-div">
                 <input type="text" className="contact___form-input" name="user_name"
-                  placeholder='Inser your name' />
+                  placeholder='Insert your name' />
               </div>
               <div className="contact___form-div">
                 <input type="email" className="contact___form-input" name="user_email"
-                  placeholder='Inser your email' />
+                  placeholder='Insert your email' />
               </div>
               <div className="contact___form-div">
                 <input type="text" className="contact___form-input" name="user_subject"
-                  placeholder='Inser your subject' />
+                  placeholder='Insert your subject' />
 
               </div>
               <div className="contact___form-div  contact___form-area">
@@ -51,6 +61,7 @@ import "./contact.css";
 
               <button className='btn' type="submit">Send Message</button>
             </div>
+            
           </form>
         </div>
       

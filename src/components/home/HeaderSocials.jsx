@@ -1,25 +1,31 @@
 import React from 'react'
 
+
 const HeaderSocials = () => {
+       
+                const emailAddress = 'vinithkumarmkg3@gmail.com';
+              
+                const handleClick = () => {
+                  window.location.href = `mailto:${emailAddress}`;
+                };
   return (
     <div className='home___socials'>
-        <a href="https://www.instagram.com/" className="home___social-link" target="_blank">
+        <a href="http://instagram.com/vinith_kumar_mkg?igshid=MzNINGNKZWQ4MG==" className="home___social-link" target="_blank" rel="noreferrer" >
         <i class="fa-brands fa-instagram"></i>
         </a>
         <a href="
-https://www.twitter.com/" className="home___social-link" target="_blank">
+https://www.twitter.com/" className="home___social-link" target="_blank" rel="noreferrer">
         <i class="fa-brands fa-twitter"></i>
         </a>
         <a href="
-https://www.behance.com/" className="home___social-link" target="_blank">
-        <i class="fa-brands fa-behance"></i>
+https://github.com/vinithkumar3" className="home___social-link" target="_blank" rel="noreferrer" >
+        <i class="icon-social-github"></i>
         </a>
-        <a href="https://www.dribble.com/" className="home___social-link" target="_blank">
-        <i class="fa-brands fa-dribbble"></i>
+        <a href="https://www.linkedin.com/in/vinith-kumar-g-b8a649149" className="home___social-link" target="_blank" rel="noreferrer">
+        <i class="icon-social-linkedin"></i>
         </a>
-        <a href="
-https://www.pinterest.com/" className="home___social-link" target="_blank">
-        <i class="fa-brands fa-pinterest"></i>
+        <a href="https://www.pinterest.com/" className="home___social-link" target="_blank"  onClick={handleClick} rel="noreferrer">
+       <i class="fa fa-envelope" aria-hidden="true"></i>
         </a>
       
     </div>

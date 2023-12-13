@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Sidebar.css";
 import Logo from "../../assets/logo.svg"
+// import traning from "../../assets/training.png"
 const Sidebar = () => {
   const [toggle, showMenu] = useState(false);
   return (
@@ -41,11 +42,7 @@ const Sidebar = () => {
                   <i className="icon-layers"></i>
                 </a>
               </li>
-              <li className="nav___item">
-                <a href="#blog" className="nav___link">
-                  <i className="icon-note"></i>
-                </a>
-              </li>
+              
               <li className="nav___item">
                 <a href="#contact" className="nav___link">
                   <i className="icon-bubble"></i>

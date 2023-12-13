@@ -29,8 +29,8 @@ height:3.75rem;
     box-shadow: var(--shadow);
     background-color: var(--container-color);
     color:var(--text-color);
-    border:none;
-    outline:none;
+   
+    
     border-radius: 1.875rem;
     padding:0.625rem 1.875rem;
     z-index:1;
@@ -43,7 +43,24 @@ height:3.75rem;
     resize:none;
 
 }
+.email{
+    color: rgb(36, 13, 241);
+    font-weight: 500 ;
 
+        transition: .3s;
+
+}
+.email:hover{
+    color:hsl(357, 83%, 46%);
+}
+.number{
+    color: black;
+    font-weight: 500;
+
+}
+.number:hover{
+    color:hsl(357, 83%, 46%);
+}
 
 
 @media screen and (max-width:1024px){

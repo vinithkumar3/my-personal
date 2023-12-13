@@ -1,31 +1,31 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg"
-import AboutBox from './AboutBox';
+// import AboutBox from './AboutBox';
+import Me from "../../assets/profile-pic.png"
+import resume from "../../assets/VinithkumarG-r.pdf"
 
 const About = () => {
   
     const handleDownload = () => {
       const link = document.createElement('a');
-      link.href = "../../assets/Vinithkumar.pdf";
-      link.download = 'resume.pdf';
+      link.href = resume;
+      link.download = 'Vinithkumar.G_resume.pdf';
       link.click();
     };
   return (
     <section className="about container section" id="about">
       <h2 className="section___title">About Me</h2>
       <div className="about___container grid">
-        <img src={Image} alt="" className="about___img" />
+        <img src={Me} alt="" className="about___img" />
         <div className="about___data grid">
           <div className="about___info">
-            <p className="about___description">I am Vinith Kumar, web developer from Tamil Nadu, India.
-              I have rich experience in web site design and building and customization, also I am good at React.</p>
+            <p className="about___description"> I'm Vinith Kumar, a web developer from Tamil Nadu, India. With a strong foundation in website design and customization, I excel in React. As a fresher, I'm eager to contribute my skills and enthusiasm to innovative web development projects.</p>
             <a href="" className="btn" onClick={handleDownload}>Download CV</a>
           </div>
           <div className="about___skills grid">
             <div className="skills___data">
               <div className="skills___titles">
-                <h3 className="skills___name">Development </h3>
+                <h3 className="skills___name">HTML,CSS </h3>
                 <span className="skills___number ">90%</span>
                 
               </div>
@@ -38,11 +38,11 @@ const About = () => {
            <div className="about___skills grid">
             <div className="skills___data">
               <div className="skills___titles">
-                <h3 className="skills___name">UI/UX design</h3>
+                <h3 className="skills___name">JAVASCRIPT</h3>
                 <span className="skills___number">80%</span>
               </div>
               <div className="skills___bar">
-                <span className="skills___percentage  ui___design"></span>
+                <span className="skills___percentage  js___design"></span>
 
               </div>
             </div>
@@ -50,8 +50,20 @@ const About = () => {
           <div className="about___skills grid">
             <div className="skills___data">
               <div className="skills___titles">
-                <h3 className="skills___name">Photography</h3>
-                <span className="skills___number">60%</span>
+                <h3 className="skills___name">REACT JS</h3>
+                <span className="skills___number">80%</span>
+              </div>
+              <div className="skills___bar">
+                <span className="skills___percentage  react___design"></span>
+
+              </div>
+            </div>
+          </div> 
+          <div className="about___skills grid">
+            <div className="skills___data">
+              <div className="skills___titles">
+                <h3 className="skills___name">JAVA</h3>
+                <span className="skills___number">70%</span>
               </div>
               <div className="skills___bar">
                 <span className="skills___percentage photography"></span>
@@ -61,7 +73,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <AboutBox/>
+      {/* //<AboutBox/> */}
     </section>
   )
 }
