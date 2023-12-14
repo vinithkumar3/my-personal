@@ -6,7 +6,7 @@ import resume from "../../assets/VinithkumarG-r.pdf"
 
 const About = () => {
   
-    const handleDownload = () => {
+    const handleDownload = () => {  
       const link = document.createElement('a');
       link.href = resume;
       link.download = 'Vinithkumar.G_resume.pdf';
