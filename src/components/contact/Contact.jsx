@@ -44,19 +44,19 @@ import "./contact.css";
             <div className="contact___form-group">
               <div className="contact___form-div">
                 <input type="text" className="contact___form-input" name="user_name"
-                  placeholder='Insert your name' />
+                  placeholder=' Name' />
               </div>
               <div className="contact___form-div">
                 <input type="email" className="contact___form-input" name="user_email"
-                  placeholder='Insert your email' />
+                  placeholder=' Email' />
               </div>
               <div className="contact___form-div">
                 <input type="text" className="contact___form-input" name="user_subject"
-                  placeholder='Insert your subject' />
+                  placeholder='Subject' />
 
               </div>
               <div className="contact___form-div  contact___form-area">
-                <textarea name="message" id="" cols="30" rows="10" className='contact___form-input ' placeholder='write your message'></textarea>
+                <textarea name="message" id="" cols="30" rows="10" className='contact___form-input' placeholder='write your message'></textarea>
               </div>
 
               <button className='btn' type="submit">Send Message</button>
