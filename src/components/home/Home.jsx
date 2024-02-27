@@ -32,7 +32,7 @@ const FormDisplay = ({ formData }) => {
         <h1 className="home___name" name="username">Vinith kumar Gnanaoli </h1>
 
 
-        <span className="home___education">I'm Front-End Developer.
+        <span className="home___education">I'm Front-End Developer
         </span><br></br>
         <span className="home___education">vinithkumarmkg3@gmail.com
         </span>

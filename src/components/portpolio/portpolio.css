@@ -117,9 +117,10 @@
     .work___container{
         grid-template-columns: repeat(2,330px);
         justify-content: center;
-        row-gap: 1.875rem;
+       
     }
 }
+
 
 @media screen and (max-width:768px){
     .work___container{
@@ -127,7 +128,7 @@
 
     }
     .work___filters{
-row-gap: 025rem;
+    row-gap: 0rem;
     }
 }
 @media screen and (max-width:350px){
