@@ -20,28 +20,31 @@ const Menu = [
     image: Work2,
     title: "KG Shuttle Court Website",
     category: "React",
-    href:"https://github.com/vinithkumar3/KG_website.git"
+    href:"https://github.com/vinithkumar3/KG_website.git",
+    link:"kg-website-three.vercel.app"
   },
   {
     id: 3,
     image: Work3,
     title: "E-cart",
     category: "React & Node js",
-    href:"https://github.com/vinithkumar3/E-cart.git"
+    href:"https://github.com/vinithkumar3/E-cart.git",  
   },
   {
     id: 4,
     image: Work4,
     title: "Dashboard",
     category: "Design",
-    href:""
+    href:"https://github.com/vinithkumar3/Dashboard-Html-css/tree/main/project"
   },
   {
     id: 5,
     image: Work5,
     title: "Dashboard",
-    category: "Html",
-    href:"https://github.com/vinithkumar3/dashboard_html_css"
+    category: "Html", 
+    href:"https://github.com/vinithkumar3/dashboard_html_css",
+    
+   
   },
   {
     id: 6,

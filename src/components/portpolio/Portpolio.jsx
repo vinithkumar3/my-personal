@@ -26,8 +26,8 @@ const Portpolio = () => {
       </div>
       <div className="work___container grid">
         {items.map((elem) => {
-          const { id, image, title, category,href } = elem;
-          return (
+          const { id, image, title, category,href,link } = elem;
+          return (<div>
             <div className="work___card" key={id}>
               <div className="work___thumbnail">
                 <img src={image} alt="" className="work___img" />
@@ -39,6 +39,13 @@ const Portpolio = () => {
               <a href={href} className="work___button"  target="_blank" rel="noreferrer">
                 <i className="icon-link work___button-icon"></i>
               </a>
+              </div>
+              {link && (
+                    <div>
+                      <span className='work___label'>Link: </span>
+                      <span className='work___link'>{link}</span>
+                    </div>
+)}
             </div>
           )
         })}

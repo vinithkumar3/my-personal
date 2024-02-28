@@ -24,7 +24,15 @@
 .work___items:hover {
     color: var(--first-color);
 }
-
+.work___label{
+    color: var(--first-color);
+    font-weight: var(--font-bold);
+}
+.work___link{
+    color:blue;
+    font-weight: var(--font-bold);
+    text-decoration: underline;
+}
 .work___container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.875rem;
